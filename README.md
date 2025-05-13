@@ -95,3 +95,22 @@ This generates the same outputs as Step 6 using previously saved detection data.
 - The machine learning models used in this project were **pre-trained** on a large dataset, emphasizing the importance of extensive training data. For custom training, ensure a dataset with thousands of annotated images (e.g., over 7,000 license plate samples) to achieve comparable performance.
 - Training on a GPU significantly improves efficiency, especially for larger models.
 - Refer to the repository’s example folder structure to avoid configuration errors.
+
+
+
+
+## License Plate Detection Model
+
+This project employs a machine learning model based on YOLOv5 and YOLOv8 for detecting vehicles in videos, extracting license plates, and performing optical character recognition (OCR). The model was **previously trained** using an extensive dataset comprising **over 7,000 annotated license plate images**, which is critical for achieving high accuracy and generalization in detection. Below, the required configuration file structure, dataset requirements, and training process are described.
+
+### Configuration File Structure (`model.yaml`)
+
+To train the model, a `model.yaml` configuration file is required, specifying the paths to the training, validation, and test images, as well as the class configuration: You will have to fill each folder with many many license plate images, I used about 7500 images that were taked by me.
+
+```yaml
+training: ../training/images
+validating: ../validating/images
+testing: ../testing/images
+
+nc: 1
+names: ['License_Plate']
