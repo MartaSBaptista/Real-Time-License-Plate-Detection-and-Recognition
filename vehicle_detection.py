@@ -12,7 +12,7 @@ output_dir = "pasta_carros"
 os.makedirs(output_dir, exist_ok=True)
 
 # === Leitura do vídeo ===
-cap = cv2.VideoCapture("3.mov")
+cap = cv2.VideoCapture("video.mov")
 frame_skip = 10
 frame_count = 0
 car_count = 1
