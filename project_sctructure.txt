@@ -1,0 +1,25 @@
+Root/
+├── data.yaml                    # ✅ Manual - Configuração do dataset para treino YOLOv8
+├── 3.mov                        # ✅ Manual - Vídeo original de entrada
+├── vehicle_detection.py         # ✅ Manual - Script para extrair carros do vídeo
+├── license_plate_recognition.py # ✅ Manual - Script para detetar matrículas + OCR
+├── train_model.py               # ✅ Manual - Script para treinar modelo YOLOv8
+├── requirements.txt             # ✅ Manual - Lista de dependências Python
+├── README.md                    # ✅ Manual - Documentação do projeto
+
+# Arquivos gerados automaticamente
+├── pasta_carros/                # 🛠️ Auto - Criada pelo vehicle_detection.py (recortes de carros)
+│   └── car1.jpg
+│   └── car2.jpg
+│   └── ...
+├── output_txts/                 # 🛠️ Auto - Criada pelo license_plate_recognition.py (JSONs das deteções)
+│   └── car1.txt
+│   └── car2.txt
+│   └── ...
+├── runs/                        # 🛠️ Auto - Criada pelo script de treino (train_model.py)
+│   └── detect/
+│       └── train6/
+│           └── weights/
+│               └── best.pt      # 🛠️ Auto - Pesos do modelo treinado
+├── lista_de_chapas_de_matricula.txt  # 🛠️ Auto - Lista final de matrículas detetadas
+├── tabela_comparativa.html      # 🛠️ Auto - Tabela visual com imagens e OCR das matrículas
