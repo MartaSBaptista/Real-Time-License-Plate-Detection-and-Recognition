@@ -2,16 +2,15 @@ import cv2
 import torch
 import os
 
-# === Carregar modelo YOLOv5nano (super leve) ===
 model = torch.hub.load('ultralytics/yolov5', 'yolov5n', pretrained=True)
 model.conf = 0.5
 model.classes = [2, 5, 7]  # car, bus, truck
 
-# === Criar pasta de saída ===
+
 output_dir = "pasta_carros"
 os.makedirs(output_dir, exist_ok=True)
 
-# === Leitura do vídeo ===
+
 cap = cv2.VideoCapture("video.mov")
 frame_skip = 10
 frame_count = 0
