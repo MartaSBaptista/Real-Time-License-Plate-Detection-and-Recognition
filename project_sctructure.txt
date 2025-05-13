@@ -1,10 +1,9 @@
 Root/
 ├── data.yaml                    # ✅ Manual - Configuração do dataset para treino YOLOv8
-├── 3.mov                        # ✅ Manual - Vídeo original de entrada
+├── video.mov                        # ✅ Manual - Vídeo original de entrada
 ├── vehicle_detection.py         # ✅ Manual - Script para extrair carros do vídeo
 ├── license_plate_recognition.py # ✅ Manual - Script para detetar matrículas + OCR
 ├── train_model.py               # ✅ Manual - Script para treinar modelo YOLOv8
-├── requirements.txt             # ✅ Manual - Lista de dependências Python
 ├── README.md                    # ✅ Manual - Documentação do projeto
 
 # Arquivos gerados automaticamente
