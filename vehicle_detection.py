@@ -11,7 +11,7 @@ output_dir = "pasta_carros"
 os.makedirs(output_dir, exist_ok=True)
 
 
-cap = cv2.VideoCapture("video.mov")
+cap = cv2.VideoCapture("video.mp4")
 frame_skip = 10
 frame_count = 0
 car_count = 1
