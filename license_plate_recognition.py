@@ -5,24 +5,23 @@ import json
 import uuid
 from ultralytics import YOLO
 
-# Caminhos
+
 model_path = "runs/detect/train6/weights/best.pt"
 image_folder = "pasta_carros"
 output_folder = "output_txts"
 
-# Criação de pastas
+
 os.makedirs(output_folder, exist_ok=True)
 
-# Lista de imagens
+
 image_files = [f"car{i}.jpg" for i in range(1, 13)]
 
-# Carregar modelo YOLO
+
 model = YOLO(model_path)
 
-# Matrículas detetadas para HTML
+
 dados_para_html = []
 
-# Loop pelas imagens
 for image_name in image_files:
     img_path = os.path.join(image_folder, image_name)
     txt_path = os.path.join(output_folder, image_name.replace(".jpg", ".txt"))
@@ -71,7 +70,7 @@ for image_name in image_files:
                     license_plate_text = [[text]]
                     license_plates = [[[x1, y1, x2, y2]]]
 
-    # JSON com estrutura esperada
+    # JSON 
     output_json = [
         {
             "license_plates": license_plates,
@@ -90,16 +89,16 @@ for image_name in image_files:
         }
     ]
 
-    # Guardar ficheiro JSON
+  
     with open(txt_path, "w", encoding="utf-8") as f:
         json.dump(output_json, f, indent=2)
 
     print(f"{image_name}: Guardado em {txt_path}")
 
-    # Adicionar à tabela HTML
+    #  HTML
     dados_para_html.append((img_path, placa_detectada))
 
-# Criar HTML com os resultados
+
 with open("tabela_comparativa.html", "w", encoding="utf-8") as html_file:
     html_file.write("<html><head><title>Tabela Comparativa</title></head><body>\n")
     html_file.write("<h1>Resultados de Deteção e OCR</h1>\n")
@@ -112,7 +111,7 @@ with open("tabela_comparativa.html", "w", encoding="utf-8") as html_file:
 
     html_file.write("</table></body></html>")
 
-# Guardar todas as matrículas detetadas num .txt
+#  .txt
 with open("lista_de_chapas_de_matricula.txt", "w", encoding="utf-8") as f:
     for _, placa in dados_para_html:
         f.write(placa + "\n")
