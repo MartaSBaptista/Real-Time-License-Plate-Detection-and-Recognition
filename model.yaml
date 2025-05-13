@@ -1,6 +1,6 @@
-training: ../train/images
-validating: ../valid/images
-testing: ../test/images
+training: ../training/images
+validating: ../validating/images
+testing: ../testing/images
 
 nc: 1
 names: ['License_Plate']
