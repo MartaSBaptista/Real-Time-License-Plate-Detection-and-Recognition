@@ -1,0 +1,44 @@
+[
+  {
+    "license_plates": [
+      [
+      ]
+    ],
+    "license_plate_text": [
+      [
+        "AU02UX"
+      ]
+    ],
+    "cars": [
+],
+    "car_model_predictions": {
+      "image": {
+        "width": 433,
+        "height": 195
+      },
+      "predictions": [
+        {
+          "width": 432,
+          "height": 187,
+          "x": 217,
+          "y": 96.5,
+          "confidence": 0.9625442624092102,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "b55bfa76-383c-46b8-8935-96024b82a358",
+          "parent_id": "image"
+        },
+        {
+          "width": 32,
+          "height": 75,
+          "x": 16,
+          "y": 83.5,
+          "confidence": 0.5257478952407837,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "db5b9e4f-23c2-417e-a4e3-57a2951f8107",
+          "parent_id": "image"
+        }
+      ]
+    }
+  }

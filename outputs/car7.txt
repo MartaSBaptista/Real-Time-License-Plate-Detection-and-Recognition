@@ -1,0 +1,56 @@
+[
+  {
+    "license_plates": [
+      [
+      ]
+    ],
+    "license_plate_text": [
+      [
+        "01NU64"
+      ]
+    ],
+    "cars": [
+    ],
+    "car_model_predictions": {
+      "image": {
+        "width": 350,
+        "height": 199
+      },
+      "predictions": [
+        {
+          "width": 345,
+          "height": 191,
+          "x": 172.5,
+          "y": 98.5,
+          "confidence": 0.9641607999801636,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "a0e336f9-b543-4008-8a25-2feacf908125",
+          "parent_id": "image"
+        },
+        {
+          "width": 16,
+          "height": 27,
+          "x": 8,
+          "y": 15.5,
+          "confidence": 0.6506248712539673,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "edfcdb70-af84-423d-93a4-c0580fe49eff",
+          "parent_id": "image"
+        },
+        {
+          "width": 92,
+          "height": 99,
+          "x": 304,
+          "y": 49.5,
+          "confidence": 0.48919111490249634,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "7b3595e5-8fc8-442c-999d-d3f8e68c4aa7",
+          "parent_id": "image"
+        }
+      ]
+    }
+  }
+]

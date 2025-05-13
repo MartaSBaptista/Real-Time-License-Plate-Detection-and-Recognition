@@ -1,0 +1,44 @@
+[
+  {
+    "license_plates": [
+      [
+      ]
+    ],
+    "license_plate_text": [
+      [
+        "BA4IEJ"
+      ]
+    ],
+    "cars": [
+ ],
+    "car_model_predictions": {
+      "image": {
+        "width": 1062,
+        "height": 434
+      },
+      "predictions": [
+        {
+          "width": 1045,
+          "height": 422,
+          "x": 538.5,
+          "y": 215,
+          "confidence": 0.9675911664962769,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "410a9268-9213-4645-9bd0-3226b73ca705",
+          "parent_id": "image"
+        },
+        {
+          "width": 361,
+          "height": 219,
+          "x": 881.5,
+          "y": 124.5,
+          "confidence": 0.7412780523300171,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "2c6b596e-2036-426f-8bc3-a13dad6378fd",
+          "parent_id": "image"
+        }
+      ]
+    }
+  }

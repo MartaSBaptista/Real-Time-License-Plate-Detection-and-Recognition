@@ -1,0 +1,55 @@
+[
+  {
+    "license_plates": [
+      [
+      ]
+    ],
+    "license_plate_text": [
+      [
+        "B155ZJ"
+      ]
+    ],
+    "cars": [
+ ],
+    "car_model_predictions": {
+      "image": {
+        "width": 1079,
+        "height": 458
+      },
+      "predictions": [
+        {
+          "width": 1078,
+          "height": 444,
+          "x": 540,
+          "y": 228,
+          "confidence": 0.9824934601783752,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "8a782659-0882-459e-98f1-780afc1fabb1",
+          "parent_id": "image"
+        },
+        {
+          "width": 301,
+          "height": 181,
+          "x": 150.5,
+          "y": 93.5,
+          "confidence": 0.7974411249160767,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "885ec3ad-b249-43be-9157-c56585d8acb4",
+          "parent_id": "image"
+        },
+        {
+          "width": 214,
+          "height": 53,
+          "x": 828,
+          "y": 64.5,
+          "confidence": 0.6368923187255859,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "d63bf4e8-9ad9-4fac-b574-61ace2929a41",
+          "parent_id": "image"
+        }
+      ]
+    }
+  }

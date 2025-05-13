@@ -1,0 +1,45 @@
+[
+  {
+    "license_plates": [
+      [
+      ]
+    ],
+    "license_plate_text": [
+      [
+        "94RX92"
+      ]
+    ],
+    "cars": [
+
+    ],
+    "car_model_predictions": {
+      "image": {
+        "width": 1101,
+        "height": 353
+      },
+      "predictions": [
+        {
+          "width": 1012,
+          "height": 336,
+          "x": 595,
+          "y": 175,
+          "confidence": 0.975145161151886,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "bd40463b-a55a-427c-b248-c8edb661e26c",
+          "parent_id": "image"
+        },
+        {
+          "width": 264,
+          "height": 220,
+          "x": 133,
+          "y": 119,
+          "confidence": 0.8956579566001892,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "d1edb306-58b4-41f7-82e9-ac4ae46c5455",
+          "parent_id": "image"
+        }
+      ]
+    }
+  }

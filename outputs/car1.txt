@@ -1,0 +1,76 @@
+[
+  {
+    "license_plates": [
+      [
+      ]
+    ],
+    "license_plate_text": [
+      [
+        "29FA93"
+      ]
+    ],
+    "cars": [
+ "car_model_predictions": {
+      "image": {
+        "width": 795,
+        "height": 411
+      },
+      "predictions": [
+        {
+          "width": 781,
+          "height": 396,
+          "x": 400.5,
+          "y": 201,
+          "confidence": 0.9287773370742798,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "58ed8b17-9bdd-4a39-9467-f55c45e04950",
+          "parent_id": "image"
+        },
+        {
+          "width": 36,
+          "height": 74,
+          "x": 18,
+          "y": 76,
+          "confidence": 0.8793659806251526,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "13c86b54-006a-4a50-b67a-8b4ec56893f9",
+          "parent_id": "image"
+        },
+        {
+          "width": 146,
+          "height": 33,
+          "x": 665,
+          "y": 44.5,
+          "confidence": 0.7012959122657776,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "1e5bdd46-bb00-446a-8feb-bc54500d1354",
+          "parent_id": "image"
+        },
+        {
+          "width": 35,
+          "height": 34,
+          "x": 35.5,
+          "y": 60,
+          "confidence": 0.5497581362724304,
+          "class_id": 2,
+          "class": "car",
+          "detection_id": "7da4cce0-bb84-437f-8bd0-e107f6b29abb",
+          "parent_id": "image"
+        },
+        {
+          "width": 91,
+          "height": 66,
+          "x": 441.5,
+          "y": 93,
+          "confidence": 0.46103596687316895,
+          "class_id": 0,
+          "class": "person",
+          "detection_id": "d29fbce6-5176-41d8-870c-2b49b8054dd4",
+          "parent_id": "image"
+        }
+      ]
+    }
+  }
