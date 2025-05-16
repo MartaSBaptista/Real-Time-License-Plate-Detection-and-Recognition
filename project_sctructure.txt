@@ -1,5 +1,5 @@
 Root/
-├── train_model.yaml                    # ✅ Manual - Configuration file for YOLOv8 training
+├── model.yaml                    # ✅ Manual - Configuration file for YOLOv8 training
 ├── video.mov                    # ✅ Manual - Input video file
 ├── vehicle_detection.py         # ✅ Manual - Script to extract vehicles from video frames
 ├── license_plate_recognition.py # ✅ Manual - Script to detect license plates and apply OCR
