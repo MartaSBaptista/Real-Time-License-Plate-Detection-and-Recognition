@@ -5,7 +5,7 @@ Root/
 ├── license_plate_recognition.py # ✅ Manual - Script to detect license plates and apply OCR
 ├── train_model.py               # ✅ Manual - Script to train YOLOv8 model
 ├── README.md                    # ✅ Manual - Project documentation
-├── License plate recognition/               
+├── License plate recognition/     # ✅ Manual           
 │   └── testing/
 │       └── upload your images here
 │   └── validating/
